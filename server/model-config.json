@@ -14,26 +14,31 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "db",
+    "public": true
   },
   "AccessToken": {
     "dataSource": "db",
-    "public": false
+    "public": true
   },
   "ACL": {
     "dataSource": "db",
-    "public": false
+    "public": true
   },
   "RoleMapping": {
     "dataSource": "db",
-    "public": false
+    "public": true
   },
   "Role": {
     "dataSource": "db",
-    "public": false
+    "public": true
   },
-  "CoffeeShop": {
-    "dataSource": "mysqlDs",
+  "Category": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Subcategory": {
+    "dataSource": "db",
     "public": true
   }
 }
