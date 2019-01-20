@@ -1,8 +1,1 @@
-{
-  "db": {
-    "name": "db",
-    "connector": "memory",
-    "write": true,
-    "read": true
-  }
-}
+{"db":{"name":"db","connector":"memory","write":true,"read":true}}
